@@ -1,5 +1,10 @@
 const DetailsCar = document.querySelector(".DetailsCar");
-const slide = ["images/Citroen_C1.jpg", "images/Citroen-C1_2.jpg"];
+const slide = [
+  "images/Véhicules/Fiat500_2.JPG",
+  "images/Véhicules/Fiat500_2.JPG",
+  "images/Véhicules/Fiat500_3.JPG",
+  "images/Véhicules/Fiat500_4.JPG",
+];
 let numero = 0;
 
 function ChangeSlide(sens) {
