@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300&family=Sixtyfour&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+ }
+ .container {
+    width: 100%;
+    height: 185vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/devantureGarageAuto.jpg);
+    background-position: center;
+    background-size: cover;
+ }
+
+ .retour {
+    position: fixed;
+    text-decoration: none;
+    background: transparent linear-gradient(rgba(0,0,0,0.24),rgba(0,0,0,0.24));
+    color: #303030;
+    width: 80px;
+    height: 45px;
+    border-radius: 10%;
+    border: 1px solid #feee37;
+    top: 20px;
+    left: 30px;
+    font-size: 15px;
+ }
+
+ .retour a {
+    color: #fff;
+    text-decoration: none;
+ }
+
+ .DetailsCar {
+    transition: 0.5s ease-in-out;
+}
+
+.LeVehicule {
+    text-align: center;
+    padding-top: 10px;
+}
+
+#slider {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 0px;
+}
+
+.detailstitle {
+    margin-left: 45%;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#slider img {
+    width: 40%;
+    height: 40%;
+}
+
+#precedent,
+#suivant {
+    margin: 10%;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+    opacity: 1;
+    font-size: 550%;
+    color: #fff;
+    padding: 10px;
+    flex-direction: column;
+}
+
+#precedent {
+    left: 0;
+}
+
+#suivant {
+    right: 0;
+}
+
+#slider:hover #precedent,
+#slider:hover #suivant {
+    opacity: 1;
+}
+
+
+/* ----------------------le container-------------- */
+
+.content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -90px;
+}
+
+.content .card{
+	width:430px;
+	position:relative;
+	height: 600px;
+	background: #f0f0f0;
+	margin:30px 10px;
+	padding: 20px 15px;
+	display:flex;
+	flex-direction: column;
+	box-shadow: 0.5px 10px #e6e6e6;
+	transition:0.3s ease-in-out;
+	margin-top: 5%;
+    border-radius: 21px;
+}
+.container .card .imgBx{
+	position: relative;
+	width:260px;
+	height: 260px;
+	top: -60px;
+	left:81px;
+	box-shadow: 0 5px 20px rbga (0,0,0,1.2);
+}
+
+.container .card .imgBx img
+{
+	max-width: 100%;
+	border-radius: 10px;
+    transition: 0.5s ease-in-out;
+}
+
+.imgBx:hover img{
+	transform: scale(1.1);
+}
